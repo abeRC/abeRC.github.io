@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="love">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌹</title>
+    <meta charset="utf-8">
+    <style>
+      img {
+        position: absolute;
+        width: 4vw;
+        height: auto; 
+        justify-self: center;
+        opacity: 70%;
+      }
+      @media all and (orientation:portrait) {
+        img {
+          width: 4vh;
+        }
+      }
+      @font-face {
+        font-family: customFont;
+        src: url("Didot HTF-M42- Medium.otf");
+      }
+      h2,p {
+        justify-self: center;
+        align-self: center;
+        white-space: pre;
+        font-family: customFont;
+        color: #538b44;
+        font-weight: bold;
+      }
+      b {
+        color: #e32a1c;
+      }
+      div {
+        display: grid;
+        height: 100vh;
+        align-items: center;
+      }
+      blockquote {
+        align-self: center;
+        text-align: right;
+        margin-right: 8vw;
+      }
+    </style>
+  </head>
+  <body style="background-color: #ead9ee;">
+    <div style="align-items: center">
+    <p style="font-size: 20px">
+Conforme a minha casca cresceu, <b>eu</b> também cresci e — passo a passo,
+com as influências de todas as pes<b>s</b>oas desta Terra que chacoalharam meu ser e imbuíram em mim um pouco de seus nutrientes —
+foram desocludidos, iluminados e regados esses br<b>o</b>tos que eu não sabia para que serviam.<br>
+Primórdios, pedúnculo, sépalas e pétalas desenvolvem-se,
+cobrem a Mente e transformam meus nutrientes n<b>u</b>ma flor, que quer que eu nasça mais uma vez. <br>
+E cada vez a Mente mais se envivece, e cada vez mais esforça para não se ceder aos bro<b>t</b>os florescentes. <br>
+E a Mente tem fo<b>r</b>ça
+— força o bastante para ver em si que é feit<b>a</b> de brotos, e flores dela querem vir.<br>
+Pois a Casca se deu à Mente, e procura ate<b>n</b>dê-la.
+Através da Casca, seus brotos experimentam novos nutrientes — mas estes vindos dela! — e eles florescem e seus gineceus crescem.
+<b>S</b>empre florescentes, eles são a Mente e a Casca.
+</p>
+    <blockquote>~Ais</blockquote>
+  
+  </div>
+
+    <script>
+      roses = [
+        "giphyt.gif",
+        "rosa-roset.gif",
+        "rose-bloom.gif",
+        "tumblr_p4swkibkp01w31brko1_500.gif"
+      ]
+
+      function choose(choices) {
+        var index = Math.floor(Math.random() * choices.length);
+        return choices[index];
+      }
+
+      // magic pngs
+      function f(n=1) {
+        try {
+          img_list = Array.from(document.getElementsByClassName("ROSE"))
+          for (const img of img_list) {
+            img.remove()
+          }
+        } catch (e) {}
+        
+        while (n>0) {
+          img = document.createElement("img")
+          img.src = choose(roses)
+          img.classList.add("ROSE")
+          img.style.top = 9+82*Math.random() + "vh"
+          img.style.left = 9+82*Math.random() + "vw"
+          document.body.appendChild(img)
+          n--
+        }
+        i = Math.ceil(4*Math.random())
+        fi = () => f(i)
+        setTimeout(fi, 5000+1000*Math.random(-1.9, 3.2))
+      }
+      setTimeout(f, 1) //7
+      
+      // audio
+      myAudioElement = new Audio("yayy.mp3")
+      function trytoplay() {
+        myAudioElement.play().catch( (e) => setTimeout(trytoplay, 5000)); // in firefox this bypasses autoplay restrictions when you click on the screen..?
+      }
+      myAudioElement.addEventListener("canplaythrough", (event) => {
+        /* the audio is now playable; play it if permissions allow */
+        trytoplay()
+      });
+    </script>
+
+  </body>
+</html>

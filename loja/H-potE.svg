@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Basic//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd">
+<svg version="1.1" baseProfile="basic" id="Layer_2"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="523.422px" height="366px"
+	 viewBox="0 0 523.422 366" xml:space="preserve">
+<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="93.711" y1="24" x2="93.711" y2="348"/>
+<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="93.711" y1="132" x2="483.711" y2="132"/>
+<rect x="27.711" y="306" fill="none" width="54" height="42"/>
+<text transform="matrix(1 0 0 1 45.6846 318.9409)"><tspan x="0" y="0" font-family="'Helvetica'" font-size="18">-436 </tspan><tspan x="-4.422" y="16.801" font-family="'Helvetica'" font-size="14">kJ/mol</tspan></text>
+<rect x="195.711" y="114" fill="none" width="48" height="18"/>
+<text transform="matrix(1 0 0 1 195.7109 124.0659)" font-family="'Helvetica'" font-size="14">74 pm</text>
+<rect x="306" y="213" fill="none" width="108" height="18"/>
+<text transform="matrix(1 0 0 1 305.9995 223.0659)" font-family="'Helvetica'" font-size="14">attractive forces</text>
+<rect x="104" y="259" fill="none" width="72" height="30"/>
+<text transform="matrix(1 0 0 1 111.9863 269.0659)"><tspan x="0" y="0" font-family="'Helvetica'" font-size="14">repulsive</tspan><tspan x="8.952" y="14.801" font-family="'Helvetica'" font-size="14">forces</tspan></text>
+<rect x="249.711" y="330" fill="none" width="108" height="18"/>
+<text transform="matrix(1 0 0 1 249.7114 340.0659)" font-family="'Helvetica'" font-size="14">most stable state</text>
+<rect x="13.422" y="45" fill="none" width="72" height="78"/>
+<text transform="matrix(1 0 0 1 17.3687 57.9414)"><tspan x="0" y="0" font-family="'Helvetica'" font-size="18">potential</tspan><tspan x="13.017" y="21.6" font-family="'Helvetica'" font-size="18">energy</tspan></text>
+<g>
+	<line fill="none" stroke="#999999" stroke-width="2" stroke-miterlimit="10" x1="87.711" y1="312" x2="90.211" y2="312"/>
+	
+		<line fill="none" stroke="#999999" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="5,5" x1="95.211" y1="312" x2="202.711" y2="312"/>
+	<polyline fill="none" stroke="#999999" stroke-width="2" stroke-miterlimit="10" points="205.211,312 207.711,312 207.711,309.5 	
+		"/>
+	
+		<line fill="none" stroke="#999999" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="5,5" x1="207.711" y1="304.5" x2="207.711" y2="137"/>
+	<line fill="none" stroke="#999999" stroke-width="2" stroke-miterlimit="10" x1="207.711" y1="134.5" x2="207.711" y2="132"/>
+</g>
+<radialGradient id="SVGID_14_" cx="218.3774" cy="327.6665" r="16.1803" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#2E3192"/>
+</radialGradient>
+<circle fill="url(#SVGID_14_)" cx="222.711" cy="333" r="15"/>
+<radialGradient id="SVGID_16_" cx="188.377" cy="327.6665" r="16.1803" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#2E3192"/>
+</radialGradient>
+<circle fill="url(#SVGID_16_)" cx="192.711" cy="333" r="15"/>
+<g>
+	<g>
+		<line fill="none" stroke="#999999" stroke-width="2.3094" stroke-miterlimit="10" x1="336.711" y1="48" x2="336.711" y2="46.5"/>
+		
+			<line fill="none" stroke="#999999" stroke-width="2.3094" stroke-miterlimit="10" stroke-dasharray="3,3" x1="336.711" y1="43.5" x2="336.711" y2="27"/>
+		<line fill="none" stroke="#999999" stroke-width="2.3094" stroke-miterlimit="10" x1="336.711" y1="25.5" x2="336.711" y2="24"/>
+	</g>
+	<g>
+		<line fill="none" stroke="#999999" stroke-width="2.3094" stroke-miterlimit="10" x1="421.711" y1="48" x2="421.711" y2="46.5"/>
+		
+			<line fill="none" stroke="#999999" stroke-width="2.3094" stroke-miterlimit="10" stroke-dasharray="3,3" x1="421.711" y1="43.5" x2="421.711" y2="27"/>
+		<line fill="none" stroke="#999999" stroke-width="2.3094" stroke-miterlimit="10" x1="421.711" y1="25.5" x2="421.711" y2="24"/>
+	</g>
+	<radialGradient id="SVGID_24_" cx="332.3774" cy="61.667" r="16.1803" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#2E3192"/>
+	</radialGradient>
+	<circle fill="url(#SVGID_24_)" cx="336.711" cy="67" r="15"/>
+	<radialGradient id="SVGID_26_" cx="416.3774" cy="61.667" r="16.1803" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#2E3192"/>
+	</radialGradient>
+	<circle fill="url(#SVGID_26_)" cx="420.711" cy="67" r="15"/>
+	<g>
+		<line fill="none" stroke="#666666" stroke-miterlimit="10" x1="367.711" y1="36" x2="345.418" y2="36"/>
+		<g>
+			<path fill="#666666" d="M346.674,36l1.534,2.522l-0.086,0.057l-4.112-1.633c-1.434-0.315-2.866-0.63-4.299-0.946
+				c1.433-0.315,2.865-0.63,4.299-0.946l4.112-1.633l0.086,0.043L346.674,36z"/>
+		</g>
+	</g>
+	<g>
+		<line fill="none" stroke="#666666" stroke-miterlimit="10" x1="389.711" y1="36" x2="414.004" y2="36"/>
+		<g>
+			<path fill="#666666" d="M412.749,36l-1.534-2.522l0.086-0.057l4.112,1.633c1.434,0.315,2.866,0.63,4.299,0.946
+				c-1.433,0.315-2.865,0.63-4.299,0.946l-4.112,1.633l-0.086-0.043L412.749,36z"/>
+		</g>
+	</g>
+	<rect x="369.711" y="27" fill="none" width="18" height="24"/>
+	<text transform="matrix(1 0 0 1 375.2153 41.3423)" font-family="'Times-Roman'" font-size="21">r</text>
+</g>
+<rect x="483.711" y="123" fill="none" width="18" height="24"/>
+<text transform="matrix(1 0 0 1 489.2153 137.3423)" font-family="'Times-Roman'" font-size="21">r</text>
+<path fill="none" stroke="#009245" stroke-width="4" stroke-miterlimit="10" d="M159.711,36c3.655,49.352,18,276,48,276
+	c30,0,44.727-81.635,60-102c36-48,90-72,216-72"/>
+<g>
+	<line fill="none" stroke="#DCC5ED" stroke-width="5" stroke-miterlimit="10" x1="303.711" y1="231" x2="339.483" y2="231"/>
+	<g>
+		<path fill="#DCC5ED" d="M336.791,231l-3.287-5.404l0.185-0.123l8.812,3.501c3.07,0.675,6.141,1.351,9.211,2.026
+			c-3.07,0.676-6.141,1.351-9.211,2.026l-8.812,3.501l-0.185-0.093L336.791,231z"/>
+	</g>
+</g>
+<g>
+	<line fill="none" stroke="#DCC5ED" stroke-width="5" stroke-miterlimit="10" x1="405.711" y1="231" x2="369.94" y2="231"/>
+	<g>
+		<path fill="#DCC5ED" d="M372.632,231l3.287,5.404l-0.185,0.123l-8.812-3.501c-3.07-0.675-6.141-1.351-9.211-2.026
+			c3.07-0.676,6.141-1.351,9.211-2.026l8.812-3.501l0.185,0.093L372.632,231z"/>
+	</g>
+</g>
+<g>
+	<line fill="none" stroke="#DCC5ED" stroke-width="5" stroke-miterlimit="10" x1="141.711" y1="291" x2="165.483" y2="291"/>
+	<g>
+		<path fill="#DCC5ED" d="M162.791,291l-3.287-5.404l0.185-0.123l8.812,3.501c3.07,0.675,6.141,1.351,9.211,2.026
+			c-3.07,0.676-6.141,1.351-9.211,2.026l-8.812,3.501l-0.185-0.093L162.791,291z"/>
+	</g>
+</g>
+<g>
+	<line fill="none" stroke="#DCC5ED" stroke-width="5" stroke-miterlimit="10" x1="135.711" y1="291" x2="111.94" y2="291"/>
+	<g>
+		<path fill="#DCC5ED" d="M114.632,291l3.287,5.404l-0.185,0.123l-8.812-3.501c-3.07-0.675-6.141-1.351-9.211-2.026
+			c3.07-0.676,6.141-1.351,9.211-2.026l8.812-3.501l0.185,0.093L114.632,291z"/>
+	</g>
+</g>
+</svg>

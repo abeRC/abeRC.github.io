@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="love">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>👁👄👁</title>
+    <meta charset="utf-8">
+    
+     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+  </head>
+  <body style="background-color: #666666;display:grid;cursor:none;color: darkseagreen">
+  <script type="text/javascript">
+        var sf;
+
+        $(document).ready(function() {
+            sf = new Snowflakes({
+                color: "#A2A2A2",
+                count: 77,
+                minSize: 12,
+                maxSize: 33
+            });
+            sf.start();
+        });
+    </script>
+  
+    <img id="who?" src="imagem.png" alt="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtAossébioAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcébioAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAceioAAAAAAAAAAAAAAAAAAAAzAécioAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzAceioAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbAécioAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmAébioAAAAAAAAAzAébioAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" title="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtAossébioAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcébioAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAceioAAAAAAAAAAAAAAAAAAAAzAécioAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzAceioAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbAécioAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmAébioAAAAAAAAAzAébioAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" style="height: 70vh; width: auto; justify-self: center;">
+    <h2 style="color: black;">Quem é <span style="cursor:wait; 
+      background: linear-gradient(144deg, rgba(255,44,9,0.5) 14%, rgba(6,5,17,0.5) 15%, rgba(160,2,254,0.5) 23%, rgba(0,255,28,0.5) 42%, rgba(0,0,0,0.5) 52%, rgba(195,0,255,0.5) 62%, rgba(168,10,10,0.5) 77%, rgba(0,0,0,0.5) 88%, rgba(51,187,11,0.5001400218290442) 98%);      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+      background-clip: text;
+      ">
+       A̛̛̫̩̙̗̯̟͚̺͕̾́̕b̷̨͓͚͙̳̥̣̻́̽̔̈́͛̉ȩ̛͙̦̻͚̙̪̘̊̀͛̌̐̓̌͟͟l̷̨̢̛̤͎̠͙̼̤̓̇͊̅̀̊̅̏͠ọ̵̢͈͎͉͉̩͗͐̈́͝͞r͙̖̺̜̳̱̰͗̀͆͌̕͘͠ţ̮̼͇̙͔̟̰̘͎̿͗̆́̈́̅̍͡͠ĕ̶̡͖̥̘̰̤̺̙̑̽̈́͋͘͝
+    </span>?</h2>
+    <p class="hand">
+      Tudo que serei, seria, posso ser e talvez fosse <br>
+      Incontraditória antigruência de nulidades hiperibridizadas <br>
+      Desconstantemente não estáveis (No espiralar fatal!) <br>
+      Quiescente minha consciência, que eu de mim escondes?
+    </p>
+
+    <script>
+      var pars = document.getElementsByClassName("hand");
+      var delay = 0;
+      var _ = function() {
+        for (var i = 0; i < pars.length; i++) {
+          var p = pars[i];
+          if (!p.state) {
+            p.style = "cursor:grabbing";
+            p.state = 1;
+          } else {
+            p.style = "cursor:grab";
+            p.state = 0;
+          }
+        }
+
+        if (delay > 10000 && Math.random() > 0.95) {
+          document.getElementById("who?").style.marginLeft = (Math.random()*120 - 60) + "vw";
+        }
+        var d = Math.random()*1500;
+        delay += d;
+        setTimeout(_, d);
+      }
+      _();
+    </script>
+  </body>
+</html>
